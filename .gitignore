@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.eggs/
+node_modules/
+*.tgz
+typescript/dist/
+.DS_Store
+Thumbs.db

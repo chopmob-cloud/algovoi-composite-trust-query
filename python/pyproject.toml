@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algovoi-composite-trust-query"
+version = "0.1.0"
+description = "AlgoVoi composite trust query response format reference implementation -- verifier-side categorical conclusion over audit chains of compliance, settlement, cancellation, and refund receipts under urn:x402:canonicalisation:jcs-rfc8785-v1"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "AlgoVoi", email = "chopmob@gmail.com" },
+]
+keywords = [
+  "x402", "ap2", "a2a", "mpp",
+  "jcs", "rfc8785", "canonicalisation",
+  "agentic-payments", "trust", "verifier",
+  "composite-trust-query", "audit-chain",
+  "psd2", "mica", "amlr",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Financial and Insurance Industry",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Security :: Cryptography",
+  "Topic :: Software Development :: Libraries",
+  "Typing :: Typed",
+]
+dependencies = [
+  "algovoi-substrate>=0.3.0",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=7",
+  "pytest-cov>=4",
+]
+
+[project.urls]
+Homepage = "https://api.algovoi.co.uk"
+Documentation = "https://docs.algovoi.co.uk/composite-trust-query"
+Repository = "https://github.com/chopmob-cloud/algovoi-composite-trust-query"
+Issues = "https://github.com/chopmob-cloud/algovoi-composite-trust-query/issues"
+IETF-I-D = "https://datatracker.ietf.org/doc/draft-hopley-x402-composite-trust-query/"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["algovoi_composite_trust_query*"]
+
+[tool.setuptools.package-data]
+algovoi_composite_trust_query = ["py.typed"]
