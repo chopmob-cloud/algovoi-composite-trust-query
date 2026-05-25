@@ -7,7 +7,7 @@
 
 AlgoVoi-authored reference implementation for the composite trust
 query response format specified in IETF Internet-Draft
-[`draft-hopley-x402-composite-trust-query-00`](https://datatracker.ietf.org/doc/draft-hopley-x402-composite-trust-query/)
+[`draft-hopley-x402-composite-trust-query`](https://datatracker.ietf.org/doc/draft-hopley-x402-composite-trust-query/)
 (Independent Submission, Informational).
 
 Verifier-side categorical conclusion over an audit chain composed of
@@ -126,7 +126,7 @@ reporting, and downstream automated decision-making.
 
 ## Companion IETF Internet-Draft
 
-[`draft-hopley-x402-composite-trust-query-00`](https://datatracker.ietf.org/doc/draft-hopley-x402-composite-trust-query/) (Independent Submission, Informational). AlgoVoi-authored. Normatively references [`draft-hopley-x402-canonicalisation-jcs-v1`](https://datatracker.ietf.org/doc/draft-hopley-x402-canonicalisation-jcs-v1/). Welcomes downstream-adopter contributions per the Appendix C "Known Adopters" pattern.
+[`draft-hopley-x402-composite-trust-query`](https://datatracker.ietf.org/doc/draft-hopley-x402-composite-trust-query/) (Independent Submission, Informational). AlgoVoi-authored. Normatively references [`draft-hopley-x402-canonicalisation-jcs-v1`](https://datatracker.ietf.org/doc/draft-hopley-x402-canonicalisation-jcs-v1/). Welcomes downstream-adopter contributions per the Appendix C "Known Adopters" pattern.
 
 ## What this is NOT
 
