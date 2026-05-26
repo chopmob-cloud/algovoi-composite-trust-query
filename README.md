@@ -144,6 +144,16 @@ reporting, and downstream automated decision-making.
 | [`@algovoi/cancellation-receipt`](https://www.npmjs.com/package/@algovoi/cancellation-receipt) | Mandate cancellation receipt |
 | **`algovoi-composite-trust-query`** / `@algovoi/composite-trust-query` | **This package.** Top-of-stack verifier response format |
 
+## Conformance to the canonicalisation discipline
+
+This package emits composite-trust-query responses pinned to `canon_version: jcs-rfc8785-v1` on every emitted response. The pin is in-band; downstream consumers (including [`algovoi-audit-verifier`](https://pypi.org/project/algovoi-audit-verifier/) and any conformant third-party verifier) read the pin to select the canonicalisation rule applied at emission.
+
+The pin is the load-bearing primitive for the [Substrate Adopters Registry](https://docs.algovoi.co.uk/adopters): adopters anchoring to this discipline pin the same `canon_version` value in their own publicly-citable artefacts. AlgoVoi maintains the registry as a neutral observer; this package itself is recorded there as the AlgoVoi reference implementation.
+
+## Substrate adopters
+
+AlgoVoi is recorded in the [Substrate Adopters Registry](https://docs.algovoi.co.uk/adopters) as the substrate author (v1 and v2). Parties anchoring their own services or specifications to `canon_version: jcs-rfc8785-v1` are recorded in the registry via the [submission process](https://docs.algovoi.co.uk/adopters#how-to-submit-an-adoption-entry). AlgoVoi validates submissions against the artefact's canonical bytes and adds qualifying entries.
+
 ## Licence
 
 Apache 2.0.
