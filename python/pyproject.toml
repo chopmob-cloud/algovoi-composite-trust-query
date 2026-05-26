@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "algovoi-composite-trust-query"
-version = "0.1.0"
+version = "0.1.1"
 description = "AlgoVoi composite trust query response format reference implementation -- verifier-side categorical conclusion over audit chains of compliance, settlement, cancellation, and refund receipts under urn:x402:canonicalisation:jcs-rfc8785-v1"
 readme = "README.md"
 requires-python = ">=3.10"
