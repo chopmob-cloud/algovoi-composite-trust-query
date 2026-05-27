@@ -1,3 +1,7 @@
+> **AlgoVoi is available for acquisition** — [docs.algovoi.co.uk/acquisition](https://docs.algovoi.co.uk/acquisition)
+
+---
+
 # algovoi-composite-trust-query
 
 [![PyPI](https://img.shields.io/pypi/v/algovoi-composite-trust-query?label=PyPI)](https://pypi.org/project/algovoi-composite-trust-query/)
